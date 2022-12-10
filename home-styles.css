@@ -76,3 +76,33 @@ header {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+#greeting {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hello {
+    text-align: center;
+    font-weight: 900;
+}
+
+#summary {
+    text-align: center;
+}
+
+#main-button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    transition: transform 0.5s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
