@@ -14,24 +14,30 @@ body {
     color: rgb(49, 49, 49);
 }
 
+/* HEADER */
+
 header {
+    position: fixed;
+    top: 0;
     font-family: 'Kanit', sans-serif;
     width: 100%;
     background-color: white;
     box-shadow: 0 10px 100px rgb(0 0 0 / 20%);
     letter-spacing: 1px;
+    padding: 0 5%;
 }
 
 #header-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 1rem 1rem;
+    justify-content: space-between;
+    padding: 1rem 0rem;
 }
 
 #logo-name {
     display: flex;
     align-items: center;
+    z-index: 1000;
 }
 
 #logo-container {
@@ -41,7 +47,7 @@ header {
     height: 2rem;
     border-radius: 50px;
     overflow: hidden;
-    margin-right: 1rem;
+    margin-right: 0.65rem;
 }
 
 #logo {
@@ -53,7 +59,7 @@ header {
 }
 
 #name {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 900;
     margin: 0;
 }
@@ -69,10 +75,59 @@ header {
 .nav-link {
     font-size: 1.1rem;
     font-weight: 600;
-    
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+/* MAIN */
+
+#main-container {
+    padding: 0 5%;
+}
+
+#greeting {
+    margin-top: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hello {
+    font-family: 'Kanit', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+#summary {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#main-button {
+    display: flex;
+    justify-content: center;
+}
+
+#p-button {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 10px 15px 0.5px rgb(0 0 0 / 20%);
+    padding: 15px 50px;
+    transition: transform 0.5s;
+}
+
+#p-button:hover {
+    transform: scale(1.2);
 }
