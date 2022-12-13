@@ -12,6 +12,9 @@ body, html {
 body {
     font-family: 'Open Sans', sans-serif;
     color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* HEADER */
@@ -100,7 +103,6 @@ header {
 }
 
 #greeting {
-    margin-top: 175px;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -96,5 +96,81 @@ header {
 /* MAIN */
 
 #main-container {
+    margin-top: 120px;
     padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    font-family: 'Kanit', sans-serif;
+    color: #000000;
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+
+hr {
+    margin-bottom: 40px;
+    background-color: #DC3545;
+    border-radius: 10px;
+    height: 10px;
+    width: 75px;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gallery div img {
+    height: 275px;
+    width: 275px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.fill {
+    object-fit: fill;
+}
+
+.imgCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.imgCard h3 {
+    font-family: 'Kanit', sans-serif;
+    color: #000000;
+    font-weight: 900;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin: 28px 0;
+}
+
+.imgCard p {
+    margin: 0 24px 30px 24px;
+    text-align: center;
+}
+
+.imgButton1 {
+    padding: 10px 10px;
+    margin-bottom: 15px;
+}
+
+.imgButton2 {
+    padding: 10px 17px;
+    margin-bottom: 15px;
+}
+
+.innerCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
