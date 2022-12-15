@@ -11,6 +11,8 @@ body, html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Open Sans', sans-serif;
     color: rgb(49, 49, 49);
 }
@@ -101,9 +103,7 @@ header {
 /* MAIN */
 
 main {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
+    flex: 1 0 auto;
 }
 
 #main-container {
@@ -141,6 +141,21 @@ hr {
     max-width: 800px;
     text-align: center;
     font-size: 1.2rem;
+    margin-bottom: 5rem;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+}
+
+#headshot{
+    width: 50%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 5rem;
+    box-shadow: 0 10px 15px 0.5px rgb(0 0 0 / 40%);
 }
 
 /* FOOTER */
