@@ -64,6 +64,10 @@ header {
     margin: 0;
 }
 
+#transition li a:hover {
+    transition: color 0.3s !important;
+}
+
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #DC3545;
 }
@@ -124,6 +128,7 @@ hr {
     height: auto;
     border-radius: 10px;
     margin-bottom: 20%;
+    box-shadow: 0 10px 15px 0.5px rgb(0 0 0 / 40%);
 }
 
 /* FOOTER */
@@ -148,6 +153,7 @@ hr {
 }
 
 #socials a:hover {
+    transition: color 0.3s;
     color: #DC3545;
 }
 

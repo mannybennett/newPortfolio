@@ -31,7 +31,7 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav mr-auto" id="transition">
                         <li class="nav-item">
                           <a class="nav-link" href="./index.html">HOME</a>
                         </li>
@@ -59,6 +59,34 @@
             <h2 id="title">CONTACT</h2>
         </div>
         <hr>
+        <section id="contactContent">
+          <div id="message">
+              <h4>Feel free to contact me by submitting the form below and I will get back to you as soon as possible. Thank you.</h4>
+          </div>
+          <form id="contactForm">
+              <div class="row g-3" id="firstLast">
+                  <div class="col">
+                      <label for="firstName" class="form-label">First Name</label>
+                      <input type="text" class="form-control" id="firstName" placeholder="" aria-label="First name">
+                  </div>
+                  <div class="col">
+                      <label for="lastName" class="form-label">Last Name</label>
+                      <input type="text" class="form-control" id="lastName" placeholder="" aria-label="Last name">
+                  </div>
+              </div>
+              <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5""></textarea>
+              </div>
+              <div id="submit">
+                  <input class="btn btn-danger" type="submit" value="Submit">
+              </div>
+          </form>
+        </section>
     </div>
     </main>
 

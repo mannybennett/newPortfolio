@@ -65,6 +65,10 @@ header {
     margin: 0;
 }
 
+#transition li a:hover {
+    transition: color 0.3s !important;
+}
+
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #DC3545;
 }
@@ -99,10 +103,10 @@ header {
 main {
     display: flex;
     justify-content: center;
+    height: 100vh;
 }
 
 #main-container {
-    max-width: 500px;
     margin-top: 120px;
     padding: 0 5%;
     display: flex;
@@ -129,21 +133,19 @@ hr {
 #p1 {
     text-align: center;
     font-weight: 900;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 30px;
 }
 
 #p2 {
-    text-align: justify;
-    font-size: 1rem;
+    max-width: 800px;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 /* FOOTER */
 
 #footer-container {
-    /* width: 100%;
-    position: fixed;
-    bottom: 0; */
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
@@ -163,6 +165,7 @@ hr {
 }
 
 #socials a:hover {
+    transition: color 0.3s;
     color: #DC3545;
 }
 
@@ -178,4 +181,15 @@ hr {
 #footer-container p {
     color: rgb(255, 255, 255);
     font-size: 0.8rem;
+}
+
+@media screen and (min-width: 768px) {
+    hr {
+        margin-bottom: 100px;
+        background-color: #DC3545;
+        border-radius: 10px;
+        height: 10px;
+        width: 75px;
+    }
+    
 }

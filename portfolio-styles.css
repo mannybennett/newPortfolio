@@ -64,6 +64,10 @@ header {
     margin: 0;
 }
 
+#transition li a:hover {
+    transition: color 0.3s !important;
+}
+
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #DC3545;
 }
@@ -123,6 +127,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 25px;
 }
 
 #gallery div img {
@@ -130,6 +135,7 @@ hr {
     width: 275px;
     border: 2px solid black;
     border-radius: 10px;
+    box-shadow: 0 10px 15px 0.5px rgb(0 0 0 / 40%);
 }
 
 .fill {
@@ -197,6 +203,7 @@ hr {
 }
 
 #socials a:hover {
+    transition: color 0.3s;
     color: #DC3545;
 }
 
