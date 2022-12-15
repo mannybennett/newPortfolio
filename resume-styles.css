@@ -42,8 +42,8 @@ header {
 
 #logo-container {
     width: 2rem;
-    min-width: 40px;
-    min-height: 40px;
+    min-width: 48px;
+    min-height: 48px;
     height: 2rem;
     border-radius: 50px;
     overflow: hidden;
@@ -62,6 +62,16 @@ header {
     font-size: 1.1rem;
     font-weight: 900;
     margin: 0;
+}
+
+#name > a:link, #name > a:visited, #name > a:active {
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+}
+
+#name a:hover {
+    transition: color 0.3s;
+    color: #DC3545;
 }
 
 #transition li a:hover {
