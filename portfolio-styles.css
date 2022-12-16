@@ -146,6 +146,7 @@ hr {
     border: 2px solid black;
     border-radius: 10px;
     box-shadow: 0 10px 15px 0.5px rgb(0 0 0 / 40%);
+    margin-bottom: 10px;
 }
 
 .fill {
@@ -240,6 +241,10 @@ hr {
         align-items: flex-start;
     }
     
+    #gallery div img {
+        margin-bottom: 0px;
+    }
+
     .imgCard {
         display: flex;
         flex-direction: row;
