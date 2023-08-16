@@ -168,6 +168,13 @@ hr {
 	margin-bottom: 25px;
 }
 
+#divider {
+	width: 100%;
+	background-color: black;
+	height: 1px;
+	margin-bottom: 50px;
+}
+
 .fill {
   object-fit: fill;
 }
