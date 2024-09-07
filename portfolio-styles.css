@@ -139,13 +139,14 @@ hr {
 }
 
 #gallery {
+  max-width: 1280px;
   display: flex;
 	align-items: center;
 	flex-direction: column;
   margin-bottom: 25px;
 }
 
-#gallery .imgCard:not(:first-child) img {
+#gallery .imgCard:not(:nth-child(-n+2)) img {
   height: 275px;
   width: 275px;
   border: 2px solid black;
@@ -173,6 +174,20 @@ hr {
 .videoContainer {
   width: 100%;
   height: 210px;
+}
+
+.flauraContainer {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flauraImgs {
+  max-width: 120px;
+  height: auto;
+  object-fit: contain;
 }
 
 #featuredDesktopText {
@@ -359,6 +374,7 @@ hr {
 	}
 
   .imgCard {
+    max-width: 1280px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -366,12 +382,13 @@ hr {
     margin: 25px 0;
   }
 
-	#gallery .imgCard:not(:first-child) {
-		width: 824px;
-	}
+  #gallery .imgCard:not(:nth-child(-n+2)) {
+    width: 824px;
+  }  
 	
 
   .innerCard {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -382,6 +399,20 @@ hr {
   .imgCard p {
     margin: 0 0 30px 0;
     text-align: left;
+  }
+
+  .flauraContainer {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .flauraImgs {
+    max-width: 100%;
+    height: 300px;
+    object-fit: contain;
   }
 }
 
