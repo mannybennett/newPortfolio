@@ -176,6 +176,10 @@ hr {
   height: 210px;
 }
 
+#single-button {
+  margin-left: 0px !important;
+}
+
 .flauraContainer {
   width: 100%;
   min-height: 300px;
